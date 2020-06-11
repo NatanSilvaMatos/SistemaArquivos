@@ -88,9 +88,7 @@ public class ArquivosController implements InterfaceArquivos {
 					print.flush();
 				} catch (IOException e) {
 					e.printStackTrace();
-				}
-				finally 
-				{
+				}finally {
 					try {
 						print.close();
 						fileWriter.close();
